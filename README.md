@@ -1,16 +1,28 @@
-# app_flutter_heiconvert
+# 🎬 MP4X – Video Converter to MP4
 
-A new Flutter project.
+**MP4X** is a fast and user-friendly desktop application that helps you convert videos from various formats (like AVI, MKV, MOV...) to MP4 using the power of FFmpeg. Designed for simplicity and efficiency, MP4X runs smoothly on Windows with a clean interface and smart notifications.
 
-## Getting Started
+## ✨ Features
 
-This project is a starting point for a Flutter application.
+- Convert videos to MP4 in just a few clicks
+- Support for popular formats: AVI, MOV, MKV, FLV, etc.
+- Clean UI with Windows-style notifications
+- Lightweight and fast (powered by FFmpeg)
+- Auto overwrite or delete existing files
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Getting Started
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Download the latest release
+2. Open the app
+3. Select a video and convert to MP4 instantly!
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Built With
+
+- [Flutter](https://flutter.dev/)
+- [FFmpeg](https://ffmpeg.org/)
+- [windows_notification](https://pub.dev/packages/windows_notification)
+- [window_manager](https://pub.dev/packages/window_manager)
+
+---
+
+Give it a ⭐ if you like the project!
