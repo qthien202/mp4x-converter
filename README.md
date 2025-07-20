@@ -7,11 +7,8 @@
 ## ✨ Features
 
 - 🎯 Convert various formats (AVI, MKV, MOV, etc.) to MP4
-- 🖱️ Drag & drop support
-- 🧹 Automatically deletes existing output files before converting
 - 🔔 Windows notifications on completion
 - ⚡ Powered by FFmpeg
-- 🖥️ Built for Windows with a modern UI
 
 ---
 
