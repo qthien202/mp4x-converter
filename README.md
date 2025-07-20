@@ -1,28 +1,38 @@
-# 🎬 MP4X – Video Converter to MP4
+# 🎬 MP4X – Convert Videos to MP4
 
-**MP4X** is a fast and user-friendly desktop application that helps you convert videos from various formats (like AVI, MKV, MOV...) to MP4 using the power of FFmpeg. Designed for simplicity and efficiency, MP4X runs smoothly on Windows with a clean interface and smart notifications.
-
-## ✨ Features
-
-- Convert videos to MP4 in just a few clicks
-- Support for popular formats: AVI, MOV, MKV, FLV, etc.
-- Clean UI with Windows-style notifications
-- Lightweight and fast (powered by FFmpeg)
-- Auto overwrite or delete existing files
-
-## 🚀 Getting Started
-
-1. Download the latest release
-2. Open the app
-3. Select a video and convert to MP4 instantly!
-
-## 🛠 Built With
-
-- [Flutter](https://flutter.dev/)
-- [FFmpeg](https://ffmpeg.org/)
-- [windows_notification](https://pub.dev/packages/windows_notification)
-- [window_manager](https://pub.dev/packages/window_manager)
+**MP4X** is a lightweight desktop application built with Flutter that allows you to convert common video formats (e.g. AVI, MKV, MOV) to MP4 using FFmpeg. Simple interface, fast conversion, and easy to use.
 
 ---
 
-Give it a ⭐ if you like the project!
+## ✨ Features
+
+- 🎯 Convert various formats (AVI, MKV, MOV, etc.) to MP4
+- 🖱️ Drag & drop support
+- 🧹 Automatically deletes existing output files before converting
+- 🔔 Windows notifications on completion
+- ⚡ Powered by FFmpeg
+- 🖥️ Built for Windows with a modern UI
+
+---
+
+## 📦 Requirements
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install)
+- [FFmpeg](https://ffmpeg.org/)
+
+---
+
+## 🔧 Install FFmpeg
+
+To use MP4X, you need to install FFmpeg and make sure it is available globally via the `ffmpeg` command.
+
+### Windows Instructions
+
+1. Download FFmpeg from: https://ffmpeg.org/download.html  
+2. Extract it to a folder (e.g. `C:\ffmpeg`)  
+3. Add `C:\ffmpeg\bin` to your **Environment Variables → System PATH**
+
+To check if FFmpeg is installed properly:
+
+```bash
+ffmpeg -version
